@@ -1,0 +1,20 @@
+00:00:00.702431 VirtualBox GUI VM Selector Window 7.0.12 r159484 win.amd64 (Oct 12 2023 19:53:29) release log
+00:00:00.702432 Log opened 2024-12-02T13:07:09.728637000Z
+00:00:00.702433 Build Type: release
+00:00:00.702437 OS Product: Windows 11
+00:00:00.702437 OS Release: 10.0.22631
+00:00:00.702438 OS Service Pack: 
+00:00:00.715635 DMI Product Name: Nitro AN515-52
+00:00:00.719686 DMI Product Version: V1.28
+00:00:00.719701 Firmware type: UEFI
+00:00:00.720069 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.720090 Host RAM: 8032MB (7.8GB) total, 3274MB (3.1GB) available
+00:00:00.720094 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.720094 Process ID: 34612
+00:00:00.720095 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.720234 Qt version: 5.15.2
+00:00:00.720834 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.741838 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.705824 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:14:26.078390 GUI: UICommon: Handling aboutToQuit request..
+00:14:27.463220 GUI: UICommon: aboutToQuit request handled!

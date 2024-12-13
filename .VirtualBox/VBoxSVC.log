@@ -1,0 +1,146 @@
+00:00:00.003392 main     VirtualBox COM Server 7.0.12 r159484 win.amd64 (Oct 12 2023 19:53:29) release log
+00:00:00.003393 main     Log opened 2024-12-02T13:07:09.384923000Z
+00:00:00.003394 main     Build Type: release
+00:00:00.003400 main     OS Product: Windows 11
+00:00:00.003401 main     OS Release: 10.0.22631
+00:00:00.003401 main     OS Service Pack: 
+00:00:00.024081 main     DMI Product Name: Nitro AN515-52
+00:00:00.038506 main     DMI Product Version: V1.28
+00:00:00.038524 main     Firmware type: UEFI
+00:00:00.039117 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.039172 main     Host RAM: 8032MB (7.8GB) total, 3294MB (3.2GB) available
+00:00:00.039176 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.039177 main     Process ID: 29648
+00:00:00.039177 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.101076          VirtualBox: object creation starts
+00:00:00.101266          Home directory: 'C:\Users\Asilbek\.VirtualBox'
+00:00:00.101351          Installed Drivers:
+00:00:00.111162            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.12.9484)
+00:00:00.111472            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.12.9484)
+00:00:00.111776            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.12.9484)
+00:00:00.112077            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.12.9484)
+00:00:00.121714          Loading settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.124312          usbLibGetDevices: Starting USB device enumeration
+00:00:00.125246          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.125322          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.127051          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.127088          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0xa060)
+00:00:00.127120          USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0066)
+00:00:00.127141          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.260775          HostDnsMonitor: initializing
+00:00:00.269742          HostDnsMonitor: updating information
+00:00:00.269764          HostDnsMonitor: old information
+00:00:00.269765            no server entries
+00:00:00.269766            no domain set
+00:00:00.269766            no search string entries
+00:00:00.269766          HostDnsMonitor: new information
+00:00:00.269767            server 1: 8.8.8.8
+00:00:00.269767            server 2: 8.8.4.4
+00:00:00.269768            no domain set
+00:00:00.269768            no search string entries
+00:00:00.272823          VD: VDInit finished with VINF_SUCCESS
+00:00:00.290394          Loading settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox" with version "1.19-windows"
+00:00:00.303758          VirtualBox: object created
+00:00:00.364179          Saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.367123          Finished saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml"
+00:00:00.367339          Saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.370230          Finished saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml"
+00:00:00.370474          Saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.373030          Finished saving settings file "C:\Users\Asilbek\.VirtualBox\VirtualBox.xml"
+00:00:01.381187          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:03.562887          Launched VM: 4170767456 pid: 25716 (0x6474) frontend: GUI/Qt name: kali_linux_2022
+00:00:03.577156          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:09.397789          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:09.878974          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:11.840983          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:00:11.896667          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:00:13.308536          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:24.847798          Saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox" with version "1.19-windows"
+00:00:24.853666          Finished saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox"
+00:00:24.938073          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:36.745541 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:36.749343 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:36.749607 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:39.450403 dns-monitor HostDnsMonitor: updating information
+00:00:39.450484 dns-monitor HostDnsMonitor: old information
+00:00:39.450496 dns-monitor   server 1: 8.8.8.8
+00:00:39.450502 dns-monitor   server 2: 8.8.4.4
+00:00:39.450508 dns-monitor   no domain set
+00:00:39.450512 dns-monitor   no search string entries
+00:00:39.450518 dns-monitor HostDnsMonitor: new information
+00:00:39.450523 dns-monitor   no server entries
+00:00:39.450528 dns-monitor   no domain set
+00:00:39.450533 dns-monitor   no search string entries
+00:00:40.084449 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:42.910435 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:42.910698 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:42.911110 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:42.911171 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0xa060)
+00:00:54.203562 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:54.206206 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:54.206311 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:54.206649 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:54.912540 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:54.914026 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:54.914121 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:54.914312 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:56.309986 dns-monitor HostDnsMonitor: updating information
+00:00:56.310018 dns-monitor HostDnsMonitor: unchanged
+00:00:59.966217 dns-monitor HostDnsMonitor: updating information
+00:00:59.966240 dns-monitor HostDnsMonitor: old information
+00:00:59.966244 dns-monitor   no server entries
+00:00:59.966247 dns-monitor   no domain set
+00:00:59.966250 dns-monitor   no search string entries
+00:00:59.966254 dns-monitor HostDnsMonitor: new information
+00:00:59.966257 dns-monitor   server 1: 8.8.8.8
+00:00:59.966260 dns-monitor   server 2: 8.8.4.4
+00:00:59.966264 dns-monitor   no domain set
+00:00:59.966267 dns-monitor   no search string entries
+00:02:42.194471 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:42.195867 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:02:42.195961 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:02:42.196136 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:02:42.818959 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:42.887189 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:02:42.887443 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:02:42.927364 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:02:43.669765 dns-monitor HostDnsMonitor: updating information
+00:02:43.669786 dns-monitor HostDnsMonitor: unchanged
+00:03:04.100094 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:04.102817 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:03:04.103063 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:03:54.222043 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:56.853481 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:03:56.853866 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:03:56.854518 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:03:56.854615 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0xa060)
+00:04:08.246367 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:04:08.249135 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:04:08.249510 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:04:08.250147 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:05:55.341555 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:55.343169 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:05:55.347976 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:05:55.348423 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:05:55.983955 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:56.001208 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:05:56.001408 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:05:56.001659 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:08:33.693441 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:08:33.693617 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:08:33.694540 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:08:33.694664 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&8670eb8&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:08:33.694888 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:08:33.697142 USBPROXY USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xf179)
+00:14:16.421764          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:14:19.017758          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:14:53.224626          Saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox" with version "1.19-windows"
+00:14:53.232179          Finished saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox"
+00:14:53.245472 SaveState Saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox" with version "1.19-windows"
+00:14:53.251309 SaveState Finished saving settings file "C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vbox"
+00:14:59.754347 main     VirtualBox: object deletion starts
+00:14:59.756354 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Asilbek\VirtualBox VMs\kali_linux_2022\kali_linux_2022.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:14:59.766324 main     HostDnsMonitor: shutting down ...
+00:14:59.766739 main     HostDnsMonitor: shut down
+00:14:59.777931 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:14:59.778177 main     VirtualBox: object deleted
