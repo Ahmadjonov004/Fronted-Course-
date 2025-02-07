@@ -1,0 +1,30 @@
+.card1{
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    transform: translateX(-50%);
+    z-index: 4;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shows{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #95A0AF;
+    opacity: 0.5;
+    z-index:1;
+}
+
+
+
+

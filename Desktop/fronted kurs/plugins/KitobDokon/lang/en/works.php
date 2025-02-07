@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'Eng'=>'English',
+    'Uz'=>'Uzbek',
+    'Rus'=>'Russia',
+    'products'=>'Products',
+    'category'=>'Category',
+    'categories'=>'Categories',
+    'brend'=>'Brend',
+    'brends'=>'Brends',
+    'reports'=>'Reports',
+    'home'=>'Home',
+    'name'=>'Name',
+    'status'=>'Status',
+    'action'=>'Action',
+    'newCategory'=>'Add a new category',
+    'newBrend'=>'Add a new brend',
+    'newBanner'=>'Add a new banner',
+    'newProduct'=>'Add a new product',
+    'bodyPrice'=>'Body price',
+    'salePrice'=>'Sale price',
+    'discountPrice'=>'Discount Price',
+    'benfits'=>'Benfits',
+    'count'=>'Count',
+    'description'=>'description',
+    'title'=>'title',
+    'image'=>'image',
+    'banner'=>'banner',
+    'ombor'=>'warehouse',
+    'suppliers'=>'suppliers',
+    'productIncome'=>'product income',
+    'productIncomeItem'=>'product income item',
+    'order'=>'order',
+    'orderItem'=>'order item',
+
+
+];

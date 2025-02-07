@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>suptitor</title>
+</head>
+<body>
+  <video id="videoPlayer" controls>
+    <source src="8pl1rzzj82xn2rwsr8aa.mp4" type="video/mp4"/>  
+    <track src="subditor.vtt" kind="subtitles" srclang="en" label="Englizcha" default/>
+  </video>
+
+  <script>  
+    var video = document.getElementById("videoPlayer");
+    var subtitles = video.getElementsByTagName("track")[0];
+
+    window.onload = function () {
+      video.load(); 
+      subtitles.mode = "showing";
+    };
+
+    function toggleSubtitles() {
+      if (subtitles.mode == "showing") {
+        subtitles.mode = "hidden";
+      } else {
+        subtitles.mode = "showing";
+      }
+    }
+  </script>
+</body>
+</html>

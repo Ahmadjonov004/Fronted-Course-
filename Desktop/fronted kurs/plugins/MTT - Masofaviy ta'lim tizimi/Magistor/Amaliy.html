@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amali ish yuklash</title>
+  <link rel="stylesheet" href="amali.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h3>Amali ishni yuklash</h3>
+      <div class="drop_box">
+        <header>
+          <h4>Amali ishni yuklang</h4>
+        </header>
+        <p>Qo'llab-quvvatlanadigan fayllar: PDF, TEXT, DOC, DOCX</p>
+        <div class="file-selection">
+          <span id="selected-file">Fayl tanlanmadi</span>
+          <input type="file" hidden accept=".doc,.docx,.pdf" id="fileInput">
+          <label for="fileInput" class="btn choose-file">Fayl tanlash</label>
+        </div>
+        <button class="btn upload" disabled>Yuklash</button>
+        <span id="upload-message"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="amali.js"></script>
+</body>
+</html>

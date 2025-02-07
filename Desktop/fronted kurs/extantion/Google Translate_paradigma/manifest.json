@@ -1,0 +1,12 @@
+{
+    "name": "Google Translate",
+    "version": "1.0.0",
+    "description": "...",
+    "manifest_version": 3,
+    "author": "123",
+    "action": {
+        "default_icon": "icon128.png",
+        "default_popup": "index.html",
+        "default_title": "Google Translate\n\nLeft-click to translate!\nRight-click for options."
+    }
+}

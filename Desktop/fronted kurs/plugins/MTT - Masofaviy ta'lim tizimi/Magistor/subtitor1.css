@@ -1,0 +1,24 @@
+#video-container {
+    position: relative;
+  }
+  
+  #video {
+    width: 100%;
+  }
+  
+  #trim-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #trim-controls input[type="range"] {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #preview-button {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  

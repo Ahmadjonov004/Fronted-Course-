@@ -1,0 +1,13 @@
+
+    <p class="ques">Pul muomalasi – bu</p>
+    <div class="options">
+    <span>kishilar ehtiyojini qondiradigan va bozor uchun ishlab chiqarilgan mahsulotga.</span>
+    </div>
+    <hr>
+    
+    <p class="ques">Kritik nuqta bu-</p>
+    <div class="options">
+    <span>Korxonaning umumiy maqsadlarini belgilash va unga erishish usullarini tanlashdir.</span>
+    </div>
+    <hr>
+    
