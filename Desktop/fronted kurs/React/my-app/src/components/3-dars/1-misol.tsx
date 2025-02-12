@@ -60,13 +60,13 @@ const users: User[] = [
 
 const UsersList: React.FC = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Foydalanuvchilar ro‘yxati</h1>
-      <ul className="space-y-4">
+    <div>
+      <h1>Foydalanuvchilar ro‘yxati</h1>
+      <ul>
         {users.map((user) => (
-          <li key={user.id} className="p-4 border rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold">{user.name}</h2>
-            <p className="text-gray-600">📧 {user.email}</p>
+          <li>
+            <h2>{user.name}</h2>
+            <p>📧 {user.email}</p>
             <p>📍 {user.address.city}, {user.address.country}</p>
             <p>🎭 Hobbilar: {user.hobbies.length > 0 ? user.hobbies.join(", ") : "Hobbysi yo'q"}</p>
             <p>🔹 Status: {user.status ?? "Status mavjud emas"}</p>

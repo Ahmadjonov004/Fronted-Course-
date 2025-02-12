@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import "./uy-ishi-5.css"
 function ChangeColor() {
     const [count, setCount] = useState<string>("white")
     const changeColor = ():void =>{
