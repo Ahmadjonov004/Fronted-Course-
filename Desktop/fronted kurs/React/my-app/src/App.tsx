@@ -11,6 +11,7 @@ import BooleanToggle from './components/homeWork/toggle'
 import InputMirror from './components/homeWork/InputMirror'
 import Shop from './components/homeWork/Shop'
 import ChangeColor from './components/homeWork/ChangeColor'
+import UsersList from './components/3-dars/1-misol'
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
       <InputMirror/>
       <Shop/>
       <ChangeColor/>
+      <UsersList/>
     </div>
+    
   )
 }
 
