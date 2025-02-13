@@ -66,10 +66,10 @@ const UsersList: React.FC = () => {
         {users.map((user) => (
           <li>
             <h2>{user.name}</h2>
-            <p>📧 {user.email}</p>
-            <p>📍 {user.address.city}, {user.address.country}</p>
-            <p>🎭 Hobbilar: {user.hobbies.length > 0 ? user.hobbies.join(", ") : "Hobbysi yo'q"}</p>
-            <p>🔹 Status: {user.status ?? "Status mavjud emas"}</p>
+            <p> {user.email}</p>
+            <p> {user.address.city}, {user.address.country}</p>
+            <p> Hobbilar: {user.hobbies.length > 0 ? user.hobbies.join(", ") : "Hobbysi yo'q"}</p>
+            <p>Status: {user.status ?? "Status mavjud emas"}</p>
           </li>
         ))}
       </ul>
