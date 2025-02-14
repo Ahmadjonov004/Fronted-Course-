@@ -1,0 +1,11 @@
+.title{
+    font-size: 37px;
+    font-weight: 700;
+}
+.asas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid red;
+}

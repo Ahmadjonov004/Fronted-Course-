@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ClassComponent from './components/class-component/ClassComponent'
 import FunctionComponent from './components/functionComponent/function'
 import BubblingExample from './components/ForEvent/exampleEvent'
@@ -30,7 +30,9 @@ function App() {
       <Shop/>
       <ChangeColor/>
       <UsersList/>
+      
     </div>
+
     
   )
 }
