@@ -1,47 +1,31 @@
-import React, { useState } from "react";
-import EditModal from "./components/EditModal";
-import DeleteModal from "./components/DeleteModal";
+import { useState } from "react"
+import './App.css'
+import DeleteModal from "./components/deleteModal/deleteModal"
+import EditModal from "./components/editModal/editModal"
 
-const App: React.FC = () => {
-  const [isEditOpen, setIsEditOpen] = useState(false);
-  const [isDeleteOpen, setIsDeleteOpen] = useState(false);
-  const [text, setText] = useState("Dastlabki matn");
+function App() {
+  const [deleteModal, setDeleteModal] = useState<boolean>(false)
+  const [editModal, setEditModal] = useState<boolean>(false)
+
+  function openDeleteModal(){
+    if(!deleteModal){
+      setDeleteModal(true)
+    }
+  }
+  function openEditMOdal(){
+    if(!editModal){
+      setEditModal(true)
+    }
+  }
 
   return (
-    <div className="p-10">
-      <h1 className="text-2xl mb-4">Modal Component Composition</h1>
-
-      <p className="text-lg mb-4">Matn: {text}</p>
-
-      <button className="px-4 py-2 bg-blue-500 text-white rounded mr-2" onClick={() => setIsEditOpen(true)}>
-        Tahrirlash
-      </button>
-      <button className="px-4 py-2 bg-red-500 text-white rounded" onClick={() => setIsDeleteOpen(true)}>
-        O‘chirish
-      </button>
-
-      {/* Edit Modal */}
-      <EditModal
-        isOpen={isEditOpen}
-        onClose={() => setIsEditOpen(false)}
-        onSave={(newValue) => {
-          setText(newValue);
-          setIsEditOpen(false);
-        }}
-        initialValue={text}
-      />
-
-      {/* Delete Modal */}
-      <DeleteModal
-        isOpen={isDeleteOpen}
-        onClose={() => setIsDeleteOpen(false)}
-        onDelete={() => {
-          setText("");
-          setIsDeleteOpen(false);
-        }}
-      />
+    <div className="app">
+      <button onClick={openDeleteModal}>Open Delete Modal</button>
+      <button onClick={openEditMOdal}>Open Edit Modal</button>
+      {editModal && <EditModal/>}
+      {deleteModal && <DeleteModal/>}
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
