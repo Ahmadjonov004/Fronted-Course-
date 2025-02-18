@@ -3,5 +3,30 @@
   /* align-items: center; */
   gap: 2rem;
   
-
+}
+.openDeleteModal{
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 16px;
+  background-color: rgb(231, 61, 61);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.openDeleteModal:hover{
+  transition: all 0.5s ease;
+  background-color: rgb(120, 16, 4);
+}
+.openEditModal{
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 16px;
+  background-color: rgb(31, 146, 77);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.openEditModal:hover{
+  transition: all 0.5s ease;
+  background-color: rgb(19, 105, 46);
 }
